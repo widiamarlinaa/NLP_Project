@@ -1,5 +1,5 @@
 # YouTube Sentiment Analysis
-Aplikasi berbasis web untuk menganalisis sentimen komentar YouTube secara real-time. 
+Aplikasi berbasis web untuk menganalisis sentimen komentar menggunakan tautan YouTube. 
 Aplikasi dibuat untuk memahami respon audiens melalui hasil persentase sentimen.
 
 ## Fitur Utama
