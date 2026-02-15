@@ -3,7 +3,7 @@ Aplikasi berbasis web untuk menganalisis sentimen komentar menggunakan tautan Yo
 Aplikasi dibuat untuk memahami respon audiens melalui hasil persentase sentimen.
 
 ## Fitur Utama
-* **YouTube Scraping**: Mengambil 100 komentar terbaru secara otomatis via YouTube Data API v3.
+* **YouTube Scraping**: Mengambil top 100 komentar via YouTube Data API v3.
 * **Deep Learning Analysis**: Klasifikasi sentimen (Positif, Netral, Negatif) menggunakan model transformer.
 * **Text Preprocessing**: Data cleaning mencakup HTML unescape, URL removal, mention removal, lowercasing, dan penghapusan karakter berulang.
 * **Interactive Dashboard**: Visualisasi distribusi sentimen menggunakan Plotly Express.
