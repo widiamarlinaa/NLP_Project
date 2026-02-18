@@ -2,7 +2,7 @@
 Aplikasi untuk menganalisis sentimen komentar menggunakan tautan YouTube. 
 Aplikasi dibuat untuk memahami respon audiens melalui hasil persentase sentimen.
 
-## 🚀 Live Demo
+## 🚀 Visit an App
 -> https://nlpproject-sentiment-dashboard.streamlit.app/
 
 ## Fitur Utama
