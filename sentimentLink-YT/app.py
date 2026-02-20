@@ -105,11 +105,11 @@ if st.button("Analisis Sekarang"):
                 # 2. Preprocessing 
                 cleaned_comments = [clean_text(c) for c in raw_comments]
                 
-                # 3. Prediksi AI 
+                # 3. Prediksi  
                 results = analyzer(cleaned_comments, truncation=True, max_length=128)
                 print(results[:5])
 
-                # 4. Buat Dataframe
+                # 4. Dataframe
                 df = pd.DataFrame({
                     'Nama Akun': authors,
                     'Komentar': cleaned_comments, 
@@ -126,16 +126,16 @@ if st.button("Analisis Sekarang"):
                     'negative': 'Negatif'
                 }
                 
-                # Terapkan mapping ke kolom Label
+                # Apply mapping ke kolom Label
                 df['Label'] = df['Label_Murni'].map(mapping)
                 
-                # 6. Statistik untuk Grafik
+                # 6. Grafik statistik
                 counts = df['Label'].value_counts()
                 total = len(df)
                 dominant_label = counts.idxmax()
                 dominant_percent = (counts.max() / total * 100).round(1)
 
-                # --- TAMPILAN DASHBOARD ---
+                # --- DASHBOARD ---
                 st.markdown("---")
                 st.markdown(f"""
                     <div class="sentiment-card">
