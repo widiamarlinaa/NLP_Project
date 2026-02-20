@@ -8,7 +8,7 @@ import re
 import html
 import string
 
-# --- FUNGSI PEMBERSIH ---
+# --- Preprocessing function ---
 def clean_text(text):
     text = html.unescape(text)
     text = text.lower() 
