@@ -70,7 +70,7 @@ def load_local_model():
 # Inisialisasi model
 analyzer = load_local_model()
 
-# FUNGSI YOUTUBE 
+# Data result  
 def get_comments_data(video_url):
     video_id_match = re.search(r'(?:v=|\/)([0-9A-Za-z_-]{11})', video_url)
     if not video_id_match: return None
